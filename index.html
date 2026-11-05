@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mobile Application Development Blog - English oriented to Web Development 10th Grade at CTP Santa Lucía">
+  <title>DevMobile Hub | CTP Santa Lucía</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">CTP</span>
+        <span>DevMobile Hub</span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About (Stage 1)</a></li>
+        <li><a href="post-multimedia.html" class="nav-link">Multimedia Post (Stage 2)</a></li>
+        <li><a href="post-reflection.html" class="nav-link">Reflection (Stage 3)</a></li>
+        <li><a href="presentation.html" class="nav-link">Presentation Deck</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="btn-icon" aria-label="Toggle theme">
+          <span id="themeIcon">🌙</span>
+        </button>
+        <button id="menuToggle" class="btn-icon menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Academic Rubric Banner -->
+    <section class="project-banner">
+      <div class="banner-header">
+        <div class="banner-title">
+          <span>🎓</span>
+          <span>Colegio Técnico Profesional Santa Lucía &bull; English Oriented to Web Development 10th</span>
+        </div>
+        <div class="banner-meta">
+          <span>Instructor: <strong>Estefanny Sánchez Solano</strong> | Period II Project</span>
+        </div>
+      </div>
+      <div class="stages-tracker">
+        <div class="stage-pill active">
+          <span class="dot"></span>
+          <span><strong>Stage 1:</strong> Setup &amp; About Page</span>
+        </div>
+        <div class="stage-pill active">
+          <span class="dot"></span>
+          <span><strong>Stage 2:</strong> Multimedia Post &amp; Video</span>
+        </div>
+        <div class="stage-pill active">
+          <span class="dot"></span>
+          <span><strong>Stage 3:</strong> Final Reflection &amp; Slides</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <p class="hero-subtitle">10th Grade Technical English &bull; Web &amp; Mobile Development</p>
+      <h1 class="hero-title">Exploring the Future of Mobile Application Development</h1>
+      <p class="hero-desc">
+        Welcome to my academic learning blog. Here, I analyze modern cross-platform frameworks, integrate interactive multimedia tutorials, and document my growth in technical English and software engineering.
+      </p>
+      <div class="hero-btns">
+        <a href="post-multimedia.html" class="btn btn-primary">Read Stage 2 Tutorial &rarr;</a>
+        <a href="about.html" class="btn btn-secondary">Meet the Author (Stage 1)</a>
+        <a href="presentation.html" class="btn btn-secondary">View Presentation Deck</a>
+      </div>
+    </section>
+
+    <!-- Stages / Posts Grid -->
+    <section>
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1rem;">
+        <div>
+          <h2 style="font-size: 1.6rem; font-weight: 800;">Featured Deliverables</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Structured according to course rubrics and learning indicators.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <!-- Stage 1 Card -->
+        <article class="card">
+          <span class="card-stage-tag">Stage 1 &bull; Setup &amp; Topic</span>
+          <h3 class="card-title">About the Creator &amp; Purpose</h3>
+          <p class="card-desc">
+            Discover the motivation behind this blog, an introduction to the 10th-grade developer profile, and our focus on cross-platform mobile tooling.
+          </p>
+          <div class="card-footer">
+            <span class="badge-tag">Stage 1: Complete</span>
+            <a href="about.html" style="font-weight: 600;">Explore About Page &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Stage 2 Card -->
+        <article class="card">
+          <span class="card-stage-tag">Stage 2 &bull; Multimedia Post</span>
+          <h3 class="card-title">Flutter vs. React Native: 2024 Framework Comparison</h3>
+          <p class="card-desc">
+            A comprehensive written tutorial comparing Dart and JavaScript, featuring an embedded video guide and in-depth educational commentary.
+          </p>
+          <div class="card-footer">
+            <span class="badge-verified">✓ 100–150 words verified</span>
+            <a href="post-multimedia.html" style="font-weight: 600;">Read Tutorial &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Stage 3 Card -->
+        <article class="card">
+          <span class="card-stage-tag">Stage 3 &bull; Final Reflection</span>
+          <h3 class="card-title">Project Learnings, Challenges &amp; Classmate Feedback</h3>
+          <p class="card-desc">
+            Synthesizing lessons in technical English and web coding, overcoming responsive design hurdles, and reviewing comments from classmates.
+          </p>
+          <div class="card-footer">
+            <span class="badge-verified">✓ 100–150 words verified</span>
+            <a href="post-reflection.html" style="font-weight: 600;">Read Reflection &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Quick Highlights Banner -->
+    <section style="margin-top: 3.5rem; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius); padding: 2rem; box-shadow: var(--shadow-sm);">
+      <h3 style="margin-bottom: 0.75rem; font-size: 1.25rem;">Why Cross-Platform Mobile Development?</h3>
+      <p style="color: var(--text-muted); font-size: 0.98rem; margin-bottom: 1.25rem;">
+        In 10th grade technical training, understanding how modern frameworks compile to native binaries allows developers to reach both iOS and Android users with unified codebase efficiency. This blog combines foundational technical concepts with English writing proficiency.
+      </p>
+      <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+        <span class="badge-tag">Dart &amp; Flutter</span>
+        <span class="badge-tag">JavaScript &amp; React Native</span>
+        <span class="badge-tag">Responsive Web Design</span>
+        <span class="badge-tag">Technical English B1/B2</span>
+        <span class="badge-tag">CTP Santa Lucía 2024</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About (Stage 1)</a>
+        <a href="post-multimedia.html">Stage 2 Post</a>
+        <a href="post-reflection.html">Stage 3 Post</a>
+        <a href="presentation.html">Classroom Slides</a>
+      </div>
+      <p>&copy; 2024 Colegio Técnico Profesional Santa Lucía &bull; English Oriented to Web Development 10th.</p>
+      <p style="font-size: 0.8rem; color: var(--text-light);">
+        Project II Period &bull; Built with HTML5, CSS3, &amp; Vanilla JavaScript
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
